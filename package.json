@@ -1,6 +1,6 @@
 {
   "name": "@spree-packages/asyncapi-html-template",
-  "version": "2.3.11",
+  "version": "2.3.12",
   "description": "HTML template for the AsyncAPI generator.",
   "keywords": [
     "asyncapi",
@@ -40,7 +40,7 @@
   "dependencies": {
     "@asyncapi/generator-react-sdk": "^1.0.20",
     "@asyncapi/parser": "^3.1.0",
-    "@spree-packages/asyncapi-react-component": "^2.0.4",
+    "@spree-packages/asyncapi-react-component": "^2.0.6",
     "highlight.js": "10.7.3",
     "puppeteer": "^14.1.0",
     "react-dom": "^17.0.2",
