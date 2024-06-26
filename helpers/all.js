@@ -2,7 +2,7 @@ import path from 'path';
 import fs from 'fs';
 import ReactDOMServer from 'react-dom/server';
 import fetch from 'sync-fetch';
-import AsyncApiComponent, { hljs } from '@spree-packages/asyncapi-react-component';
+import AsyncApiComponent, { hljs } from '@asyncapi/react-component';
 import { AsyncAPIDocumentInterface, stringify } from '@asyncapi/parser';
 
 function isJsonObject(o) {
