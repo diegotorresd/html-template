@@ -11,8 +11,8 @@ const copyFile = util.promisify(fs.copyFile);
 
 // source (node_modules): destination (template)
 const filesToCopy = {
-  "@spree-packages/asyncapi-react-component/browser/standalone/without-parser.js": "js/asyncapi-ui.min.js",
-  "@spree-packages/asyncapi-react-component/styles/default.min.css": "css/asyncapi.min.css",
+  "@asyncapi/react-component/browser/standalone/without-parser.js": "js/asyncapi-ui.min.js",
+  "@asyncapi/react-component/styles/default.min.css": "css/asyncapi.min.css",
 };
 
 async function copyFiles() {
