@@ -157,8 +157,6 @@ export function stringifyConfiguration(params) {
 export function renderSpec(asyncapi, params) {
   loadLanguagesConfig();
   const config = prepareConfiguration(params);
-  console.log('!!!!!!');
-  console.log(config);
   const stringified = stringifySpec(asyncapi);
   const component = <AsyncApiComponent schema={stringified} config={config}/>;
   return ReactDOMServer.renderToString(component);
